@@ -2,7 +2,7 @@
 
 ## Repositories:
 ### Project 1 - Agile & Scrum
-[CMPG-323-Project1---35803150](https://github.com/suksesnwu/CMPG-323-Overview---35803150)
+[CMPG-323-Overview---35803150](https://github.com/suksesnwu/CMPG-323-Overview---35803150)
 
 ### Project 2 - API Development
 [CMPG-323-Project2---35803150](https://github.com/suksesnwu/CMPG-323-Project2---35803150)
