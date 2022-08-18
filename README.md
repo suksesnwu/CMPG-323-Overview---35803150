@@ -28,9 +28,12 @@ Main branch will only contain the code features that are completed, and has been
 Branches will be created to develop features and fix bugs that arise, then merged back to the main branch after they have been verified
 
 ## .gitignore file:
+Contains untracked files that are to be ignored when code is commited/pushed to remote repository.[^2]
 
+I plan to include Database Configuration Files as the configuration will be different on other operating systems.
 
 ## Storage credentials and sensitive information:
 
 ### References
 [^1]: Microsoft Docs. 2022. Adopt a Git branching strategy (https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops) Date accessed: 18 August 2022
+[^2]: Git Docs. 2022. gitignore (https://git-scm.com/docs/gitignore) Date accessed: 18 August 2022
