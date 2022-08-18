@@ -24,7 +24,7 @@
 ## Branching Strategy:
 I will be using the Git Flow branching strategy for development.[^1]
 
-Main branch will only contain the code features that are completed, and has been tested.
+Main branch will only contain production releases that are completed, and has been tested.
 Branches will be created to develop features and fix bugs that arise, then merged back to the main branch after they have been verified
 
 ## .gitignore file:
@@ -33,7 +33,16 @@ Contains untracked files that are to be ignored when code is commited/pushed to 
 I plan to include Database Configuration Files as the configuration will be different on other operating systems.
 
 ## Storage credentials and sensitive information:
+To keep users data like authentication credentials private, I will be using Azure Credential Scanner and Azure Key Vault. 
+
+#### Azure Key Vault
+Cloud secret manager service that will keep API keys and passwords secured. [^3]
+
+####  Azure Credential Scanner
+Checks all the commits on GitHub to ensure no specific credentials such as passwords get merged to the main branch.[^4]
 
 ### References
 [^1]: Microsoft Docs. 2022. Adopt a Git branching strategy (https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops) Date accessed: 18 August 2022
 [^2]: Git Docs. 2022. gitignore (https://git-scm.com/docs/gitignore) Date accessed: 18 August 2022
+[^3]: Microsoft Doc. 2022. Azure Key Vault basic concepts (https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts) Date accessed: 18 August 2022
+[^4]: Azure Managing Azure Secrets on GitHub Repositories (https://azure.microsoft.com/en-us/blog/managing-azure-secrets-on-github-repositories/) Date accessed: 18 August 2022
