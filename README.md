@@ -22,10 +22,9 @@
 ![Context Repo Diagram Final drawio (1)](https://user-images.githubusercontent.com/69342894/185395901-84c53b9b-da31-4b8e-9106-24d4b08c5feb.png)
 
 ## Branching Strategy:
-I will be using the Git Flow branching strategy for development.[^1]
+As part of my development process, I will be using the Git Flow branching strategy..[^1]
 
-Main branch will only contain production releases that are completed, and has been tested.
-Branches will be created to develop features and fix bugs that arise, then merged back to the main branch after they have been verified
+A main branch will contain only production releases that have been tested and completed.
 
 ## .gitignore file:
 Contains untracked files that are to be ignored when code is commited/pushed to remote repository.[^2]
