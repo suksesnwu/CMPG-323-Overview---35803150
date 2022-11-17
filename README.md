@@ -87,32 +87,81 @@ Representational State Transfer (REST) is a model and architectural style used f
 
 ![api overview project2 diagram](https://user-images.githubusercontent.com/69342894/188290399-f5a30762-d863-4d0a-8824-c17b5e851adf.png)
 
-** Register/Login **
+### Register/Login 
 _Register_
+
 `POST /api/Authenticate/register`
 
 _Login_
+
 `POST /api/Authenticate/login`
 
-_Create a new admin on the database_
+_Create a new admin_
+
 `POST /api/Authenticate/register-admin`
 
-** Categories **
+### Categories
 _Retrieve all Categories entries from the database_
+
 `GET /api/Categories`
 
 _Create a new Category entry on the database_
+
 `POST /api/Categories`
 
 _Retrieve one Category from the database based on the ID parsed through_
+
 `GET /api/Categories/{id}`
 
 _Update an existing Category entry on the database_
+
 `PUT /api/Categories/{id}`
 
-** Zones **
+_Delete an existing Category entry on the database_
 
-##### Device 
+`DELETE /api/Categories/{id}`
+
+### Zones
+_Retrieve all Zones entries from the database_
+
+`GET /api/Zones`
+
+_Create a new Zone entry on the database_
+
+`POST /api/Zones`
+
+_Retrieve one Zone from the database based on the ID parsed through_
+
+`GET /api/Zones/{id}`
+
+_Update an existing Zone entry on the database_
+
+`PUT /api/Zones/{id}`
+
+_Delete an existing Zone entry on the database_
+
+`DELETE /api/Zones/{id}`
+
+### Device 
+_Retrieve all Devices entries from the database_
+
+`GET /api/Devices`
+
+_Create a new Device entry on the database_
+
+`POST /api/Devices`
+
+_Retrieve one Device from the database based on the ID parsed through_
+
+`GET /api/Devices/{id}`
+
+_Update an existing Device entry on the database_
+
+`PUT /api/Devices/{id}`
+
+_Delete an existing Device entry on the database_
+
+`DELETE /api/Devices/{id}`
 
 ### Project-3 Overview
 ***
