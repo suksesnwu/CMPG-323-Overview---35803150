@@ -10,17 +10,17 @@
         <a href="#general-info">General Info</a>
       </ul>
       <ul><a href="#projects-and-repository-links">Projects and Repository Links</a></ul>
-      <ul><a href="#project-explained-with-diagram">Project Explained with Diagram</a>
-      <ul><a href="#branching-strategy">Branching Strategy</a>
-      <ul><a href="#.gitignore-file">.gitignore file</a>
-      <ul><a href="#storage-credentials-and-sensitive-information">Storage credentials and sensitive information</a>
-      <ul><a href="#Projects Overview">Projects Overview</a>
+      <ul><a href="#project-explained-with-diagram">Project Explained with Diagram</a></ul>
+      <ul><a href="#branching-strategy">Branching Strategy</a></ul>
+      <ul><a href="#gitignore-file">.gitignore file</a></ul>
+      <ul><a href="#storage-credentials-and-sensitive-information">Storage credentials and sensitive information</a></ul>
+      <ul><a href="#projects-overview">Projects Overview</a>
         <ul>
-          <li><a href="#high-level-metrics">High-Level Metrics</a></li>
-          <li><a href="#device-monitoring">Device Monitoring</a></li>
-          <li><a href="#device-registration">Device Registration</a></li>
-          <li><a href="#filtering">Filtering</a></li>
-          <li><a href="#strech-tasks">Stretch Tasks</a></li>
+          <li><a href="#project-1-overview">Project-1 Overview</a></li>
+          <li><a href="#project-2-overview">Project-2 Overview</a></li>
+          <li><a href="#project-3-overview">Project-3 Overview</a></li>
+          <li><a href="#project-4-overview">Project-4 Overview</a></li>
+          <li><a href="#project-5-overview">Project-5 Overview</a></li>
         </ul>
       </ul>
     </ol>
@@ -49,12 +49,12 @@
 ![Context Repo Diagram Final drawio (1)](https://user-images.githubusercontent.com/69342894/185395901-84c53b9b-da31-4b8e-9106-24d4b08c5feb.png)
 
 ## Branching Strategy:
-As part of my development process, I will be using the Git Flow branching strategy..[^1]
+As part of my development process, I will be using the Git Flow branching strategy.
 
 A main branch will contain only production releases that have been tested and completed.
 
-## .gitignore file:
-Contains untracked files that are to be ignored when code is commited/pushed to remote repository.[^2]
+## gitignore file:
+Contains untracked files that are to be ignored when code is commited/pushed to remote repository.
 
 I plan to include Database Configuration Files as the configuration will be different on other operating systems.
 
@@ -62,9 +62,28 @@ I plan to include Database Configuration Files as the configuration will be diff
 To keep users data like authentication credentials private, I will be using Azure Credential Scanner and Azure Key Vault. 
 
 #### Azure Key Vault
-Cloud secret manager service that will keep API keys and passwords secured. [^3]
+Cloud secret manager service that will keep API keys and passwords secured. 
 
 ####  Azure Credential Scanner
-Checks all the commits on GitHub to ensure no specific credentials such as passwords get merged to the main branch.[^4]
+Checks all the commits on GitHub to ensure no specific credentials such as passwords get merged to the main branch.
+## Projects Overview
+### Project-1 Overview
+***
+
+![Burndown chart by sprint](https://user-images.githubusercontent.com/69342894/202509255-5ab02b4f-fb63-45d7-b268-d3265a8737b5.png)
+
+
+### Project-2 Overview
+***
+
+### Project-3 Overview
+***
+
+### Project-4 Overview
+***
+
+### Project-5 Overview
+***
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
