@@ -1,6 +1,34 @@
-# CMPG-323-Overview---35803150
+<a name="readme-top"></a>
+<div id="header" align="center">
+  <h1>CMPG-323-Overview---35803150</h1>
+</div>
 
+<details>
+  <summary>In this document</summary/>
+    <ol>
+      <ul>
+        <a href="#general-info">General Info</a>
+      </ul>
+      <ul><a href="#projects-and-repository-links">Projects and Repository Links</a></ul>
+      <ul><a href="#project-explained-with-diagram">Project Explained with Diagram</a>
+      <ul><a href="#branching-strategy">Branching Strategy</a>
+      <ul><a href="#.gitignore-file">.gitignore file</a>
+      <ul><a href="#storage-credentials-and-sensitive-information">Storage credentials and sensitive information</a>
+      <ul><a href="#Projects Overview">Projects Overview</a>
+        <ul>
+          <li><a href="#high-level-metrics">High-Level Metrics</a></li>
+          <li><a href="#device-monitoring">Device Monitoring</a></li>
+          <li><a href="#device-registration">Device Registration</a></li>
+          <li><a href="#filtering">Filtering</a></li>
+          <li><a href="#strech-tasks">Stretch Tasks</a></li>
+        </ul>
+      </ul>
+    </ol>
+</details>
+
+## General Info
 ## Projects and Repository Links:
+
 #### Project 1 - Agile & Scrum
 [CMPG-323-Overview---35803150](https://github.com/suksesnwu/CMPG-323-Overview---35803150)
 
@@ -15,7 +43,6 @@
 
 #### Project 5 - Reporting & Monitoring
 [CMPG-323-Project5---35803150](https://github.com/suksesnwu/CMPG-323-Project5---35803150)
-
 
 ## Project Explained with Diagram:
 
@@ -40,8 +67,4 @@ Cloud secret manager service that will keep API keys and passwords secured. [^3]
 ####  Azure Credential Scanner
 Checks all the commits on GitHub to ensure no specific credentials such as passwords get merged to the main branch.[^4]
 
-### References
-[^1]: Microsoft Docs. 2022. Adopt a Git branching strategy (https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops) Date accessed: 18 August 2022
-[^2]: Git Docs. 2022. gitignore (https://git-scm.com/docs/gitignore) Date accessed: 18 August 2022
-[^3]: Microsoft Doc. 2022. Azure Key Vault basic concepts (https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts) Date accessed: 18 August 2022
-[^4]: Azure Managing Azure Secrets on GitHub Repositories (https://azure.microsoft.com/en-us/blog/managing-azure-secrets-on-github-repositories/) Date accessed: 18 August 2022
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
