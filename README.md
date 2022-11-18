@@ -217,7 +217,7 @@ There are options for each Devices, click on the icons next to any Device to do 
 This is an IoT UIPath Automation Device Management System that helps administrators register, organise, monitor, and remotely manage all IoT devices deployed by the organisation. Users and Administrator must login to be authorized so that they can register IoT devices, categorise them and deploy them throughout  the  organisation's  buildings  in  predefined  zones. 
 
 ### Quick Start
-- Clone the repo
+- Clone the <a href="https://github.com/suksesnwu/CMPG-323-Project4---35803150">Project-4 Repository</a>
 
 ### Zones
 
@@ -255,7 +255,39 @@ Published to the UiPath Orchestrator
 
 ### Project-5 Overview
 ***
-####
+The Connected Office Initiative encapsulates the use of IoT devices within the network, placed all over the office building, to collect and share the data that these devices gather.
 
+This is a report built in Power BI, that will help all stakholders see the same information pertaining to the status of IoT device registrations on various platforms. 
+
+## Quick start
+The report can be accessed on this link: <a href="https://app.powerbi.com/groups/me/reports/3e49136a-d7ad-4e42-85b0-e17b423ea022/ReportSection7c1a104924a1005b0458">Report: Connected Office Initiative</a>
+
+### High-Level Metrics Page
+This a summary view that shows business stakeholders a high-level view of the ‘important’ data, inlcuding the counts of data points based on information that could impact decision making.
+
+![High-Level Metrics](https://user-images.githubusercontent.com/69342894/202638048-3b694d88-3800-43e4-89cf-741f0c1fa638.png)
+
+### Device Monitoring Page
+Included in this page: 
+- A visual that allows the user to monitor devices per category
+- A visual that allows the user to monitor devices per zone 
+- A visual that allows the user to monitor online versus offline devices 
+
+![Device Monitoring](https://user-images.githubusercontent.com/69342894/202638095-0f05e44d-863a-49f8-9ade-918ff8cc67fd.png)
+
+### Device Registration Page
+Included in this Page:
+- A visual that allows the user to see how many devices have been registered over a timespan 
+- A visual that allows the user to see how many categories of devices have been created 
+- A visual that allows the user to see how many zones contain registered devices on a timeline
+
+![Device Registration](https://user-images.githubusercontent.com/69342894/202638129-649765e0-0445-47e3-b721-bb4baaa464f6.png)
+
+### Filtering
+- Make use of filters that can be applied across pages and visuals 
+- A filter for users to filter the report based on device category 
+- A filter for users to filter the report based on device platform 
+- A filter for users to filter the report based on device zone 
+- A filter for users to filter the report based on device registration date 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
