@@ -29,7 +29,8 @@
 </details>
 
 ## General Info
-## Projects and Repository Links:
+### Projects and Repository Links:
+***
 
 #### Project 1 - Agile & Scrum
 [CMPG-323-Overview---35803150](https://github.com/suksesnwu/CMPG-323-Overview---35803150)
@@ -46,28 +47,33 @@
 #### Project 5 - Reporting & Monitoring
 [CMPG-323-Project5---35803150](https://github.com/suksesnwu/CMPG-323-Project5---35803150)
 
-## Project Explained with Diagram:
+### Project Explained with Diagram:
+***
 
 ![Context Repo Diagram Final drawio (1)](https://user-images.githubusercontent.com/69342894/185395901-84c53b9b-da31-4b8e-9106-24d4b08c5feb.png)
 
-## Branching Strategy:
+### Branching Strategy:
+***
 As part of my development process, I will be using the Git Flow branching strategy.
 
 A main branch will contain only production releases that have been tested and completed.
 
-## gitignore file:
+### gitignore file:
+***
 Contains untracked files that are to be ignored when code is commited/pushed to remote repository.
 
 I plan to include Database Configuration Files as the configuration will be different on other operating systems.
 
-## Storage credentials and sensitive information:
+### Storage credentials and sensitive information:
+***
 To keep users data like authentication credentials private, I will be using Azure Credential Scanner and Azure Key Vault. 
 
-#### Azure Key Vault
+### Azure Key Vault
 Cloud secret manager service that will keep API keys and passwords secured. 
 
-####  Azure Credential Scanner
+###  Azure Credential Scanner
 Checks all the commits on GitHub to ensure no specific credentials such as passwords get merged to the main branch.
+
 ## Projects Overview
 ### Project-1 Overview
 ***
@@ -165,11 +171,50 @@ _Delete an existing Device entry on the database_
 
 ### Project-3 Overview
 ***
-####
+This is an <a href="https://iotsystem35803150.azurewebsites.net/" target="_blank">IoT Web App Device Management System</a> that helps administrators register, organise, monitor, and remotely manage all IoT devices deployed by the organisation. Users and Administrator must register/login to be authorized so that they can register IoT devices, categorise them and deploy them throughout  the  organisation's  buildings  in  predefined  zones. 
+
+### Register/Login
+**Register**: Go to <a href="https://iotsystem35803150.azurewebsites.net/Identity/Account/Register">Register</a> or click Register in the left sidebar.
+
+**Login**: Go to <a href="https://iotsystem35803150.azurewebsites.net/Identity/Account/Login">Login</a> or click Login in the left sidebar.
+
+![Home_Not logged_in](https://user-images.githubusercontent.com/69342894/202619928-e46f7bab-e390-4fb6-a9dd-a0ed268d1e26.png)
+
+### Zones
+Go to <a href="https://iotsystem35803150.azurewebsites.net/Zones">Zones</a> in the left sidebar (it appears when you're logged in).
+
+There are options for each zones, click on the icons next to any zone to do the following (in order):
+
+- **Create**: _Click the `plus` icon to **Create Zone**._
+- **Edit**: _Opens **Edit Zone** so you can make changes to the Zone._
+- **View**: _See **Zones Details**._
+- **Delete**: _Opens **Delete Zone** so you can delete a Zone._
+
+### Categories
+Go to <a href="https://iotsystem35803150.azurewebsites.net/Categories">Categories</a> in the left sidebar (it appears when you're logged in).
+
+There are options for each Categories, click on the icons next to any Category to do the following (in order):
+- **Create**: _Click the `plus` icon to **Create Category**._
+- **Edit**: _Opens **Edit Category** so you can make changes to the Category._
+- **View**: _See **Categories Details**._
+- **Delete**: _Opens **Delete Category** so you can delete a Category._
+
+
+### Devices
+
+Go to <a href="https://iotsystem35803150.azurewebsites.net/Devices">Devices</a> in the left sidebar (it appears when you're logged in).
+
+There are options for each Devices, click on the icons next to any Device to do the following (in order):
+- **Create**: _Click the `plus` icon to **Create Device**._
+- **Edit**: _Opens **Edit Device** so you can make changes to the Device._
+- **View**: _See **Devices Details**._
+- **Delete**: _Opens **Delete Device** so you can delete a Device._
+
+![Home_Logged_in](https://user-images.githubusercontent.com/69342894/202620039-7e9e9e95-3bfb-49af-a02a-a3aaa1875254.png)
 
 ### Project-4 Overview
 ***
-####
+
 
 ### Project-5 Overview
 ***
