@@ -214,7 +214,44 @@ There are options for each Devices, click on the icons next to any Device to do 
 
 ### Project-4 Overview
 ***
+This is an IoT UIPath Automation Device Management System that helps administrators register, organise, monitor, and remotely manage all IoT devices deployed by the organisation. Users and Administrator must login to be authorized so that they can register IoT devices, categorise them and deploy them throughout  the  organisation's  buildings  in  predefined  zones. 
 
+### Quick Start
+- Clone the repo
+
+### Zones
+
+There are workflows for each Zones, can be found Zones folder:
+
+- **Create**: _Open **Zone.xaml** and execute the automation to **Create Zones**._
+- **Edit**: _Opens **UpdateZones.xaml** to see automation for editing Zone._
+- **View**: _Open **ReadZone.xaml** automation file to see Zones details ._
+- **Delete**: _Open **DeleteZone.xaml** and observe the automation for deleting a Zone._
+
+
+### Categories
+
+There are workflows for each Categories, can be found Categories folder:
+
+- **Create**: _Open **Category.xaml** and execute the automation to **Create Categories**._
+- **Edit**: _Opens **UpdateCategories.xaml** to see automation for editing Category._
+- **View**: _Open **ReadCategory.xaml** automation file to see categories details ._
+- **Delete**: _Open **DeleteCategory.xaml** and observe the automation for deleting a Category._
+
+### Devices
+
+There are workflows for each Devices, can be found Devices folder:
+
+- **Create**: _Open **Device.xaml** and execute the automation to **Create Devices**._
+- **Edit**: _Opens **UpdateDevices.xaml** to see automation for editing Device._
+- **View**: _Open **ReadDevice.xaml** automation file to see Devices details ._
+- **Delete**: _Open **DeleteDevice.xaml** and observe the automation for deleting a Device._
+
+### Orchestrator
+
+Published to the UiPath Orchestrator 
+
+![orchestrator proof](https://user-images.githubusercontent.com/69342894/198301325-51d9701c-af46-4b19-9616-7847eb246a4c.png)
 
 ### Project-5 Overview
 ***
