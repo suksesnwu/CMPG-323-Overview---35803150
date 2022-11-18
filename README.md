@@ -78,7 +78,9 @@ Checks all the commits on GitHub to ensure no specific credentials such as passw
 ### Project-1 Overview
 ***
 
-![Burndown chart by sprint](https://user-images.githubusercontent.com/69342894/202509255-5ab02b4f-fb63-45d7-b268-d3265a8737b5.png)
+![Number of Items by sprint](https://user-images.githubusercontent.com/69342894/202639739-d4b4fa2b-ad41-4964-96ed-d17fe8bbdf7c.png)
+
+![burndown](https://user-images.githubusercontent.com/69342894/202640750-cc934d6c-b6ee-497b-8bdd-929ff65ae0f9.png)
 
 ![Number of hours for each repo](https://user-images.githubusercontent.com/69342894/202519004-5dc4cb87-87de-45bf-9bdc-6ef23547914f.png)
 
